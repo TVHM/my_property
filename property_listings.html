@@ -50,15 +50,14 @@
 	
 		</div>
 	</div>
-	<h3>HOUSING + SEARCH 12 CATEGORIES Select preferences </h3>
-	<br>
-	
 	
 	
 	<!--smaller div proerty search options-->
-	<div class="w58"><table summary="identifying details of property search"  border="1">
+	<div class="w58">
+		
+		<table summary="identifying details of property search"  border="0">
 	<caption>
-		<!-- enter text here or delete-->
+		<h3>HOUSING + SEARCH 12 CATEGORIES<br> Select preferences </h3>
 	</caption>
 	<tbody>
 		
@@ -71,6 +70,7 @@
 		
 		<tr> 
 			<th><label>Price<br><input type="text" name="fn" placeholder="min" value required >
+			<input type="text" name="fn" placeholder="max" value required >
             </label> </th>
 			
 			
@@ -78,7 +78,11 @@
 		</tr>
 		
 		<tr>
-			<th><label>Square Footage<br><input type="text" name="fn" placeholder="min" value required >
+			<th><label>Square Footage<br><input type="text" name="fn" placeholder="min"  >
+            </label></th>
+		    <br>
+			<tr>
+			<th><label>Miles from zip code<br><input type="text" name="fn" placeholder="min"  >
             </label></th>
 		    <br>
 		<tr><th><input type="submit" value="Update Search"></th></tr>
@@ -94,15 +98,15 @@
 	<!--div Houses for rent-->
 	
 	<div class="w58"><fieldset>
-				<legend>Apartments / Houses For Rent</legend>
+				<legend>Apartments /<br> Houses For Rent</legend>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;search titles only</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;search titles only</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;has image</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;has image</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;posted today</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;posted today</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;bundle duplicates</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;bundle duplicates</label><br>
 		<label for="f5" >
 			<input class="f5" type="radio" name="radio" value="1"> &nbsp;include nearby areas</label>
 		
@@ -110,17 +114,23 @@
 	
 	<!--div miles from zip code-->
 	<div class="w58"><fieldset>
-				<legend>Miles From Zip Code</legend>
+				<legend><!--optional text here--></legend>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;search titles only</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;cats ok</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;has image</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;dogs ok</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;posted today</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;furnished</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;bundle duplicates</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;no smoking</label><br>
 		<label for="f5" >
-			<input class="f5" type="radio" name="radio" value="1"> &nbsp;include nearby areas</label>
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;wheelchair access</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;EV charging</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;no application fee</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;no broker fee</label>
 		
 	</fieldset>	</div>
 				
@@ -131,51 +141,46 @@
 	<caption>
 		Select preferences
 	</caption>
-	<tbody>
-		<tr> 
-			<th><label for="f5" >
-			<input id="f5" type="radio" name="radio" value="1"> &nbsp;search titles only</label></th>
-			<th>TEXT Column Head</th>
-			<th>TEXT Column Head</th>
-
-		</tr>
+	<!-- --><tbody>
 		
-		<tr>
-			<th>TEXT</th>
-		    <td>TEXT</td>
-			
-		</tr>
 			
 	</tbody>
-	</table></div>
+	</table><!-- --></div>
 	
 		</div>	
 	<!-- div contact form - open house date-->
-	<div class="w58">
+	<div class="w58"><fieldset>
+				<legend>Housing Type</legend>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;condo</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;cottage/cabin</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;apartment</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;duplex</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;flat</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;house</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;in-law</label><br>
+		<label for="f5" >
+			<input class="f5" type="radio" name="radio" value="1"> &nbsp;loft</label>
+		
+	</fieldset>
 		</div>
 		
 	<!-- div check box extras-->
 	<div class="w58"> 
- cats ok
- dogs ok
- furnished
- no smoking
- wheelchair access
- EV charging
- no application fee
-		
+
 		<!-- drop down div extra searches -->
-	<div class="w58"> ▾ housing type
- apartment
- condo
- cottage/cabin
- no broker fee</div>
+	<div class="w58"> 
+
+ 
+ </div>
 	
- duplex
- flat
- house
- in-law
- loft
+ 
  townhouse
  manufactured
  assisted living
@@ -200,9 +205,9 @@ select all</div>
 		
 <!-- extra div delete if not needed-->	
 	<div class="w58"> 
-		<h3>TAILOR MADE SERVICES CONTACT ONE OF OUR AGENTS </h3>
+		<h3>TAILOR MADE SERVICES <br><br>CONTACT ONE OF OUR AGENTS TODAY</h3>
 		<form>
-            <label>First Name<br><input type="text" name="fn" placeholder="Subscribe Now" value required>
+            <label>First Name<br><input type="text" name="fn"  value required>
             </label>
             <br>
 			<label>Last Name<br><input type="text" name="ln" required>
@@ -212,21 +217,22 @@ select all</div>
                 <input type="password" name="pw" required>
 			</label>
                 <br>
-                <p>Preferred Contact</p>
+               
+                
+                <br>
+                <label>How May We Help You?<br>
+                    <textarea name="msg"></textarea>
+                </label> 
+			<br><br>
+			<p>Preferred Contact</p>
+			
                 <label>
                     <input type="checkbox" name="ct" value="e">email
                 </label>
                 <label>
                     <input type="checkbox" name="ct" value="t">telephone
                 </label>
-                <label>
-                    <input type="checkbox" name="ct" value="m">mail
-                </label>
-                <br>
-                <label>Open House Date<br>
-                    <textarea name="msg"></textarea>
-                </label>
-                <br>
+                <br><br><br><br>
                 <input type="submit" value="Update Search">
             </form></div>		
 		
@@ -253,47 +259,47 @@ select all</div>
 	
 	<div class="container">
 		<div class="w33"><img src="assets/img/highrise.jpg" width="400" height="400" ><br>
-				<a href="detailed_property_listing.html">HOME REPAIRS</a>
+				<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>
 				<h4>4 Bedroom Condo</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/highrise2.jpg" width="400" height="400"  ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>
 			<h4>Studio</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/highrise3.jpg" width="400" height="400" ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>2 Bedroom Brownstone</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/c0232929444969.55f309040b133.jpg" width="400" height="400" ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>4 Bedroom Condo</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/82191629444969.55f3090409b21.jpg" width="400" height="400"  ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>Studio</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/26d58329444969.55f3090414d09.jpg" width="400" height="400" ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>2 Bedroom Brownstone</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/c0232929444969.55f309040b133.jpg" width="400" height="400" ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>4 Bedroom Condo</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/82191629444969.55f3090409b21.jpg" width="400" height="400"  ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>Studio</h4>
 		</div>
 		
 		<div class="w33"><img src="assets/img/26d58329444969.55f3090414d09.jpg" width="400" height="400" ><br>
-			<a href="detailed_property_listing.html">HOME REPAIRS</a>	
+			<a href="detailed_property_listing.html">Brand New Development in Great Area $1500 per month</a>	
 			<h4>2 Bedroom Brownstone</h4>
 		</div>
 	<!--container div-->
